@@ -1,0 +1,168 @@
+
+.navbar {
+    padding: 1px 0;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+      
+}
+.navbarSansLogo {
+    display: flex;
+    flex-direction: row;
+}
+
+.blue-text {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    color: green;
+    margin-left: 25%;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.navbar .logo {
+    width: 50%;
+    float: left;
+}
+
+.navbar .logo .logo-text{
+    font-size: 30px;
+    font-weight: bold;
+    
+  
+}
+
+
+.navbar input:checked ~ .ul-list {
+    display: block;
+}
+
+
+
+.navbar .ul-list {
+    width: 50%;
+    float: left;
+    list-style: none;
+    padding: 0%;
+}
+/**/
+.navbarColor {
+    background: #222;
+    position: fixed;
+    
+    
+}
+
+/************************/
+@media (min-width: 1200px) {
+    .navbarColor {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 7; }
+    }
+    
+    @media (max-width: 1199px) {
+    .navbarColor {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 7; }
+    }
+    
+    @media (max-width: 991px) {
+    .navbarColor {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 7; }
+    } 
+
+    /*************************************/
+
+.link0, .link1, .link2, .link3 {
+    color: blanchedalmond;
+
+}
+/**/
+.navbar .ul-list .list-item {
+    display: inline-block;
+}
+
+
+
+.navbar .ul-list .list-item a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+.link0 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+.link1 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+.link2 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+.link3 {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+
+.navbar .ul-list .list-item a:hover {
+    color: #eb5424;
+}
+
+/* Media for Navbar Style */ 
+
+@media (min-width : 992px) {
+    .navbar label {
+        display: none;
+    }
+}
+
+@media (max-width : 991px) {
+    .navbar .logo {
+        width: 100%;
+        float: none;
+    }
+    
+    .navbar .ul-list {
+        width: 100%;
+        float:  none;
+        margin-top: 20px;
+        display: none;
+    }
+    
+    .navbar .ul-list .list-item {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navbarColor {
+        background: #222;
+    }
+    .link0, .link1, .link2, .link3 {
+        color: blanchedalmond;
+        display: flex;
+        flex-direction: row;
+  
+    }
+   
+   
+  
+    
+}

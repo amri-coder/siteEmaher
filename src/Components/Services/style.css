@@ -1,0 +1,34 @@
+table
+{
+margin: auto;
+
+}
+td
+{
+text-align :center;
+}
+#Services {
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+.MDBCol {
+    max-width: 22rem;
+}
+
+.Devis {
+    text-align: center;
+}
+
+
+@media (max-width:500px) {
+   
+    td {
+        display: flex;
+        flex-direction: column;
+    }
+    .MDBCol {
+        margin-right:1% ;
+        margin-left: 1%;
+        margin: 1%;
+        display: table-row;
+    }
+}
